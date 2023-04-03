@@ -1,0 +1,12 @@
+.cards__like {
+   width: 22px;
+   height: 22px;
+   background: url(../../../images/heart.svg);
+   background-repeat: no-repeat;
+   border: 0;
+   cursor: pointer;
+}
+
+.cards__like:hover {
+   opacity: 0.5;
+}

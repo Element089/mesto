@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Ибатуллин Артур">
+   <meta name="description" content="Mesto">
+   <title>Mesto</title>
+   <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="body">
+   <div class="page">
+      <header class="header">
+         <img src="./images/Logo.png" alt="логотип" class="header__logo">
+      </header>
+      <main>
+         <section class="profile">
+            <img src="./images/lucas-andrade-AVATAR-unsplas.png" alt="аватарка" class="profile__avatar" />
+            <div class="profile__info">
+               <h1 class="profile__name">Лука Андраде</h1>
+               <p class="profile__description">Путешественница</p>
+               <button class="profile__edit-button opacity" type="button">
+                  <img src="./images/Vector.png" alt="иконка редактирования" class="profile__edit-button-icon" />
+               </button>
+            </div>
+            <button class="profile__add-button opacity" type="button">
+               <img src="./images/Vector (1).png" alt="иконка добавления" class="profile__add-button-icon" />
+            </button>
+         </section>
+
+         <section class="cards">
+            <ul class="cards__items">
+               <li class="cards__item">
+                  <img class="cards__photo" src="./images/evererst.jpg" alt="Эверест">
+                  <div class="cards__mesto">
+                     <h2 class="cards__text">Эверест</h2>
+                     <button class="cards__like cards__like_active" type="button"></button>
+                  </div>
+               </li>
+               <li class="cards__item">
+                  <img class="cards__photo" src="./images/indonesia.jpg" alt="Индонезия">
+                  <div class="cards__mesto">
+                     <h2 class="cards__text">Индонезия</h2>
+                     <button class="cards__like cards__like_active" type="button"></button>
+                  </div>
+               </li>
+               <li class="cards__item">
+                  <img class="cards__photo" src="./images/China (1).jpg" alt="Китай">
+                  <div class="cards__mesto">
+                     <h2 class="cards__text">Китай</h2>
+                     <button class="cards__like cards__like_active" type="button"></button>
+                  </div>
+               </li>
+               <li class="cards__item">
+                  <img class="cards__photo" src="./images/Espana (1).jpg" alt="Испания">
+                  <div class="cards__mesto">
+                     <h2 class="cards__text">Испания</h2>
+                     <button class="cards__like cards__like_active" type="button"></button>
+                  </div>
+               </li>
+               <li class="cards__item">
+                  <img class="cards__photo" src="./images/sand nayrobi.jpg" alt="Пустыня">
+                  <div class="cards__mesto">
+                     <h2 class="cards__text">Найроби пустыня</h2>
+                     <button class="cards__like cards__like_active" type="button"></button>
+                  </div>
+               </li>
+               <li class="cards__item">
+                  <img class="cards__photo" src="./images/thailand.jpg" alt="Таиланд">
+                  <div class="cards__mesto">
+                     <h2 class="cards__text">Таиланд</h2>
+                     <button class="cards__like cards__like_active" type="button"></button>
+                  </div>
+               </li>
+            </ul>
+         </section>
+      </main>
+      <footer class="footer">
+         <p class="footer__name" lang="en">&copy; 2023 Mesto Russia</p>
+      </footer>
+   </div>
+   <section class="popup">
+      <div class="popup__container">
+         <button class="popup__close" type="button"></button>
+         <h2 class="popup__title">Редактировать профиль</h2>
+         <form class="popup__form" name="form-popup">
+            <input class="popup__input popup__input_type_name" type="text" name="name" />
+            <input class="popup__input popup__input_type_job" type="text" name="job" />
+            <button class="popup__save" type="submit">Сохранить</button>
+         </form>
+      </div>
+   </section>
+   <script src="js/script.js"></script>
+</body>

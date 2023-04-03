@@ -1,0 +1,17 @@
+.cards {
+   width: calc(100% - 2*200px);
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 660px) {
+   .cards {
+      width: calc(100% - 2*70px);
+   }
+}
+
+@media screen and (max-width: 460px) {
+   .cards {
+      width: calc(100% - 2*15px);
+   }
+}
