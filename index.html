@@ -13,20 +13,22 @@
 <body class="body">
    <div class="page">
       <header class="header">
-         <img src="./images/Logo.png" alt="логотип" class="header__logo">
+         <img src="./images/Logo.svg" alt="логотип" class="header__logo">
       </header>
       <main>
          <section class="profile">
-            <img src="./images/lucas-andrade-AVATAR-unsplas.png" alt="аватарка" class="profile__avatar" />
+            <img src="./images/lucas-andrade-AVATAR-unsplas.png" alt="аватарка" class="profile__avatar">
             <div class="profile__info">
                <h1 class="profile__name">Лука Андраде</h1>
                <p class="profile__description">Путешественница</p>
                <button class="profile__edit-button opacity" type="button">
-                  <img src="./images/Vector.png" alt="иконка редактирования" class="profile__edit-button-icon" />
+                  <img src="./images/Edit_button.svg" alt="иконка редактирования" class="profile__edit-button-icon" 
+                  aria-label="edit button">
                </button>
             </div>
             <button class="profile__add-button opacity" type="button">
-               <img src="./images/Vector (1).png" alt="иконка добавления" class="profile__add-button-icon" />
+               <img src="./images/Add_button.svg" alt="иконка добавления" class="profile__add-button-icon"
+               aria-label="add button">
             </button>
          </section>
 
@@ -36,42 +38,42 @@
                   <img class="cards__photo" src="./images/evererst.jpg" alt="Эверест">
                   <div class="cards__mesto">
                      <h2 class="cards__text">Эверест</h2>
-                     <button class="cards__like cards__like_active" type="button"></button>
+                     <button class="cards__like cards__like_active" type="button" aria-label="like"></button>
                   </div>
                </li>
                <li class="cards__item">
                   <img class="cards__photo" src="./images/indonesia.jpg" alt="Индонезия">
                   <div class="cards__mesto">
                      <h2 class="cards__text">Индонезия</h2>
-                     <button class="cards__like cards__like_active" type="button"></button>
+                     <button class="cards__like cards__like_active" type="button" aria-label="like"></button>
                   </div>
                </li>
                <li class="cards__item">
-                  <img class="cards__photo" src="./images/China (1).jpg" alt="Китай">
+                  <img class="cards__photo" src="./images/China_(1).jpg" alt="Китай">
                   <div class="cards__mesto">
                      <h2 class="cards__text">Китай</h2>
-                     <button class="cards__like cards__like_active" type="button"></button>
+                     <button class="cards__like cards__like_active" type="button" aria-label="like"></button>
                   </div>
                </li>
                <li class="cards__item">
-                  <img class="cards__photo" src="./images/Espana (1).jpg" alt="Испания">
+                  <img class="cards__photo" src="./images/Espana_(1).jpg" alt="Испания">
                   <div class="cards__mesto">
                      <h2 class="cards__text">Испания</h2>
-                     <button class="cards__like cards__like_active" type="button"></button>
+                     <button class="cards__like cards__like_active" type="button" aria-label="like"></button>
                   </div>
                </li>
                <li class="cards__item">
-                  <img class="cards__photo" src="./images/sand nayrobi.jpg" alt="Пустыня">
+                  <img class="cards__photo" src="./images/sand_nayrobi.jpg" alt="Пустыня">
                   <div class="cards__mesto">
                      <h2 class="cards__text">Найроби пустыня</h2>
-                     <button class="cards__like cards__like_active" type="button"></button>
+                     <button class="cards__like cards__like_active" type="button" aria-label="like"></button>
                   </div>
                </li>
                <li class="cards__item">
                   <img class="cards__photo" src="./images/thailand.jpg" alt="Таиланд">
                   <div class="cards__mesto">
                      <h2 class="cards__text">Таиланд</h2>
-                     <button class="cards__like cards__like_active" type="button"></button>
+                     <button class="cards__like cards__like_active" type="button" aria-label="like"></button>
                   </div>
                </li>
             </ul>
@@ -86,8 +88,8 @@
          <button class="popup__close" type="button"></button>
          <h2 class="popup__title">Редактировать профиль</h2>
          <form class="popup__form" name="form-popup">
-            <input class="popup__input popup__input_type_name" type="text" name="name" />
-            <input class="popup__input popup__input_type_job" type="text" name="job" />
+            <input class="popup__input popup__input_type-name" type="text" name="name">
+            <input class="popup__input popup__input_type-job" type="text" name="job">
             <button class="popup__save" type="submit">Сохранить</button>
          </form>
       </div>

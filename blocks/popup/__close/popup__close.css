@@ -3,7 +3,7 @@
   right: -46px;
   width: 34px;
   height: 34px;
-  background: url(../../../images/Close\ Icon.png);
+  background: url(../../../images/Close_Icon.svg);
   background-repeat: no-repeat;
   border: 0;
   position: absolute;
@@ -18,12 +18,7 @@
   .popup__close {
     width: 20px;
     height: 20px;
-    background: url(../../../images/Close\ Icon1.png);
-  }
+    background: url(../../../images/Close_Icon_small.svg);
+    right: 0px;
 }
-
-@media screen and (max-width:560px) {
-  .popup__close {
-    right: 0;
-  }
 }
